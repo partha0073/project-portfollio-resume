@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top-box{
+  height: 650px;
+  background-image: url("https://images.unsplash.com/photo-1618381801643-3d253a63a386?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+
+}
+.navbar {
+  color: aliceblue;
+  height: 150px;
+ 
+  
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #08070707;
+  overflow: hidden;
+  /* background-color: #100c0c; */
+}
+.navbar li {
+  float: left;
+  /* border-right: 1px solid #bbb; */
+}
+
+ .navbar li:last-child {
+  border-right: none;
+} 
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  /* background-color: #08070707; */
+}
+.navbar li a:hover:not(.active) {
+  background-color: #34c613;
+}
+.active {
+  background-color: #34c613;
+}
+
+
+
+.text-page{
+  
+  height: auto;
+  width: 650px;
+  margin: 10px;
+  
+  /* border: 8px greenyellow solid; */
+  margin-top: 50px;
+  margin-left: 45%;
+  margin-right: 40px;
+  padding: 5px;
+  
+}
+.text-page h1{
+color: rgb(148, 43, 209);
+text-align: center;
+font-size: 40px;
+
+}
+.text-page p{
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+}
+.text-page blockquote{
+  color: rgb(237, 226, 13);
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgba(22, 21, 21, 0.17);
+}
+/* write css for projects page  */
+.projects{
+  height: 600px;
+  width: auto;
+  background-image: url('https://images.unsplash.com/photo-1417733403748-83bbc7c05140?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+text-align: center;
+>p{
+  margin: 3px;
+}
+}
+table {
+  margin-left: auto; 
+  margin-right: auto;
+  font-family: arial, sans-serif; 
+  border-collapse: collapse;
+  width: 50%;
+  background-color: rgba(228, 194, 151, 0.996);
+
+}
+
+td, th {
+  border: 3px solid #068317;
+  text-align: left;
+  padding: 8px;
+}
+
+ tr:nth-child(even) {
+  background-color: #f281d69a;
+ }
+ /* skills page css here */
+ .skills{
+  height: 700px;
+  background-image: url('https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+>h1{
+  text-align: center;
+  margin-top: 10px;
+
+}
+>h2{
+  margin-left: 58%;
+  font-size: 70px;
+  color: whitesmoke;
+  font-weight: bold;
+
+ 
+}
+>p{
+  font-size: 25px;
+  color: rgba(76, 30, 214, 0.729);
+  margin-left: 60%;
+  font-weight: bold;
+  font-family: cursive;
+  background-color: rgba(240, 248, 255, 0.359);
+}
+ }
+ .skills-cards{
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+ }
+.card{
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.565);
+  transition: .2s;
+  height: 60px;
+  width: 90px;
+  margin: 10px;
+  background-color: rgba(144, 238, 144, 0.487) ;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+  font-size: 10px;
+  font-family: Comic Sans MS;
+  
+
+}
+.card:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Achievements page is not complete */
+.achievements{
+  background-image: url('https://img.freepik.com/premium-vector/man-is-working-with-laptop_28923-38.jpg?w=360');
+
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 300px;
+
+}
+/* About page CSS */
+
+.about-me{
+  font-family: Arial, sans-serif;
+  height: auto;
+  background-color: rgba(128, 128, 128, 0.477);
+  >h1{
+    color: #333;
+    text-align: center;
+    
+  }
+ > p {
+    color: #666;
+    margin-left: 50%;
+    
+
+  }
+  >h2{
+    margin-left: 49%;
+  }
+ > ul{
+    margin-left: 49%;
+
+  }
+  >ul li{
+    padding: 5px;
+    margin-left: 10px;
+  }
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* footer */
+footer{
+  color: white;
+height: 20px;
+background-color: black;
+>p{
+  text-align: center;
+}
+
+}
